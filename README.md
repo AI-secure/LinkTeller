@@ -1,5 +1,5 @@
 ## DP-GCN
-A PyTorch implementation of "Node Clustering Enabled Differentially Private Graph Convolutional Neural Networks" (ICML 2020).
+A PyTorch implementation of "Node Clustering Enabled Differentially Private Graph Convolutional Neural Networks".
 
 ### Abstract
 
@@ -90,7 +90,7 @@ Mode `vanilla-clean` and `vanilla` correspond to the vanilla-GCN model, while mo
 #### Ablation Study Options
 
 ```
-  --break-ratio         INT     Ablation study: total number         Default is 1 
+  --break-ratio         FLOAT   Ablation study: total number         Default is 1 
                                 of clusters.
   --feature-size        INT     Ablation study: size of features.    Default is -1 for original size; 
                                                                      other positive number for predefined size.
